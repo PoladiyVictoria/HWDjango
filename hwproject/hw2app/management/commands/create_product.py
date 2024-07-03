@@ -7,11 +7,11 @@ class Command(BaseCommand):
     
     def handle(self, *args, **kwargs):
         for i in range(1, 10):
-            client = Product(
+            product = Product(
                 name=f'Product {i}',
                 description=f'Description {i}',
                 price=i * 1.2,
                 quantity=i + 2,
             )
-        client.save()
-        self.stdout.write(self.style.SUCCESS(f"Client:'{client}' is registered"))
+        product.save()
+        self.stdout.write(self.style.SUCCESS(f"Some fake test product is created"))
