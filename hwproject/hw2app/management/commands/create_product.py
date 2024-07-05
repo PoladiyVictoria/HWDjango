@@ -13,5 +13,5 @@ class Command(BaseCommand):
                 price=i * 1.2,
                 quantity=i + 2,
             )
-        product.save()
-        self.stdout.write(self.style.SUCCESS(f"Some fake test product is created"))
+            product.save()
+            self.stdout.write(self.style.SUCCESS(f"Some fake test product is created"))

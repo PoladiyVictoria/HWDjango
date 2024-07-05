@@ -6,11 +6,12 @@ class Command(BaseCommand):
     help = "Create client."
     
     def handle(self, *args, **kwargs):
-        client = Client(
-            name='Victoria',
-            email='victory@mail.com',
-            phone_num='+375291594769',
-            address='Belarus, Minsk',
-        )
-        client.save()
-        self.stdout.write(self.style.SUCCESS(f"Client:'{client}' is registered"))
+        for i in range(1, 6):
+            client = Client(
+                name=f'Client {i}',
+                email=f'client{i}@mail.com',
+                phone_num=f'+3752915947{i}{i}',
+                address='Belarus, Minsk',
+            )
+            client.save()
+            self.stdout.write(self.style.SUCCESS(f"Client:'{client}' is registered"))
