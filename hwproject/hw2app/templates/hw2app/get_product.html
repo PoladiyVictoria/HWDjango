@@ -1,0 +1,14 @@
+{% extends "hw2app/base.html" %}
+
+{% block title %} Найти товар {% endblock title %}
+
+{% block content %} 
+    <h2> Товар который вы искали</h2>
+   
+        <h3> Product {{some_prod.name}}</h3>
+        <li> Description {{some_prod.description}}</li>
+        <li> Price {{some_prod.price}}</li>
+        <img src={{some_prod.path_to_image}} alt="product">
+    
+
+{% endblock content %}  

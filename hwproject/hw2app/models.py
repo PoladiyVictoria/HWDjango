@@ -18,6 +18,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=200, decimal_places=2, default=0)
     quantity = models.PositiveIntegerField(default=0)
     add_date = models.DateField(auto_now_add=True)
+    path_to_image = models.CharField(max_length=200, null=True)
     
     def __str__(self) -> str:
         return f"Product: {self.name}, price: {self.price}, quantity: {self.quantity}"
