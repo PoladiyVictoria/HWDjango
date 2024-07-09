@@ -11,6 +11,8 @@
         <ul class="nav nav-pills justify-content-end align-items-end">
           <li class="nav-item"><a href='{% url "index" %}'class="nav-link">На главную</a></li>
           <li class="nav-item"><a href='{% url "orders" %}' class="nav-link">Заказы</a></li>
+          <li class="nav-item"><a href='{% url "prod_add" %}' class="nav-link">Добавить товар</a></li>
+          <li class="nav-item"><a href='{% url "find_prod" %}' class="nav-link">Найти товар</a></li>
     </ul>
 
     {% block content %}{% endblock  %}

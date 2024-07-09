@@ -263,3 +263,226 @@ INFO 2024-07-05 23:13:43,504 basehttp 4928 16116 "GET /hw2/orders/1 HTTP/1.1" 20
 INFO 2024-07-05 23:14:02,580 basehttp 4928 16116 "GET /hw2/orders/3 HTTP/1.1" 200 1926
 INFO 2024-07-05 23:15:34,932 autoreload 4928 8388 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
 INFO 2024-07-05 23:15:35,336 autoreload 17280 2600 Watching for file changes with StatReloader
+INFO 2024-07-07 13:35:19,462 autoreload 7880 4228 Watching for file changes with StatReloader
+INFO 2024-07-07 13:35:22,526 views 7880 16980 Index page accessed
+INFO 2024-07-07 13:35:22,526 basehttp 7880 16980 "GET / HTTP/1.1" 200 121
+WARNING 2024-07-07 13:35:22,637 log 7880 16980 Not Found: /favicon.ico
+WARNING 2024-07-07 13:35:22,637 basehttp 7880 16980 "GET /favicon.ico HTTP/1.1" 404 2545
+INFO 2024-07-07 13:38:19,510 autoreload 17144 17280 Watching for file changes with StatReloader
+INFO 2024-07-07 13:38:28,801 basehttp 17144 9136 "GET /hw2/ HTTP/1.1" 200 1244
+INFO 2024-07-07 13:38:31,210 basehttp 17144 9136 "GET /hw2/prod_add/ HTTP/1.1" 200 2238
+INFO 2024-07-07 13:40:10,454 basehttp 17144 9136 "POST /hw2/prod_add/ HTTP/1.1" 200 2392
+INFO 2024-07-07 13:41:00,877 autoreload 17144 17280 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 13:41:01,253 autoreload 1812 16212 Watching for file changes with StatReloader
+INFO 2024-07-07 13:41:06,631 autoreload 1812 16212 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 13:41:06,992 autoreload 7464 8432 Watching for file changes with StatReloader
+INFO 2024-07-07 13:41:10,334 autoreload 7464 8432 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 13:41:10,705 autoreload 11788 8712 Watching for file changes with StatReloader
+INFO 2024-07-07 13:41:14,037 autoreload 11788 8712 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 13:41:14,406 autoreload 3764 15808 Watching for file changes with StatReloader
+INFO 2024-07-07 13:41:15,695 autoreload 3764 15808 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 13:41:16,052 autoreload 4356 3680 Watching for file changes with StatReloader
+INFO 2024-07-07 13:41:51,063 basehttp 4356 13928 "POST /hw2/prod_add/ HTTP/1.1" 200 2392
+INFO 2024-07-07 13:44:05,520 basehttp 4356 13928 "POST /hw2/prod_add/ HTTP/1.1" 200 2395
+INFO 2024-07-07 13:48:41,376 autoreload 3900 1780 Watching for file changes with StatReloader
+INFO 2024-07-07 13:48:45,734 basehttp 3900 17284 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 13:49:30,358 basehttp 3900 17284 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 13:55:15,102 autoreload 6688 2064 Watching for file changes with StatReloader
+INFO 2024-07-07 13:55:19,867 basehttp 6688 14040 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 13:55:30,249 basehttp 6688 14040 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 13:59:22,027 autoreload 6688 2064 E:\Домашка\Django\hwproject\hwproject\settings.py changed, reloading.
+INFO 2024-07-07 13:59:22,408 autoreload 5256 11676 Watching for file changes with StatReloader
+INFO 2024-07-07 13:59:30,844 autoreload 5256 11676 E:\Домашка\Django\hwproject\hwproject\settings.py changed, reloading.
+INFO 2024-07-07 13:59:31,228 autoreload 18324 7776 Watching for file changes with StatReloader
+INFO 2024-07-07 14:00:19,605 views 18324 13152 Index page accessed
+INFO 2024-07-07 14:00:19,606 basehttp 18324 13152 "GET / HTTP/1.1" 200 121
+INFO 2024-07-07 14:00:25,138 basehttp 18324 13152 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 14:00:33,466 basehttp 18324 13152 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 14:03:07,132 basehttp 18324 13152 "POST /hw2/prod_add/ HTTP/1.1" 200 2446
+INFO 2024-07-07 14:09:25,979 autoreload 2548 16684 Watching for file changes with StatReloader
+ERROR 2024-07-07 14:09:30,884 log 2548 6484 Internal Server Error: /hw2/prod_add/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Домашка\Django\hwproject\hw2app\views.py", line 53, in product_action
+    fs.save(res['image.name'], res['image'])
+            ~~~^^^^^^^^^^^^^^
+KeyError: 'image.name'
+ERROR 2024-07-07 14:09:30,886 basehttp 2548 6484 "POST /hw2/prod_add/ HTTP/1.1" 500 68043
+ERROR 2024-07-07 14:09:54,869 log 2548 6484 Internal Server Error: /hw2/prod_add/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Домашка\Django\hwproject\hw2app\views.py", line 53, in product_action
+    fs.save(res['image.name'], res['image'])
+            ~~~^^^^^^^^^^^^^^
+KeyError: 'image.name'
+ERROR 2024-07-07 14:09:54,871 basehttp 2548 6484 "POST /hw2/prod_add/ HTTP/1.1" 500 68043
+INFO 2024-07-07 14:10:42,953 autoreload 2548 16684 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 14:10:43,337 autoreload 8392 17544 Watching for file changes with StatReloader
+INFO 2024-07-07 14:10:44,654 autoreload 8392 17544 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 14:10:45,033 autoreload 13592 15476 Watching for file changes with StatReloader
+ERROR 2024-07-07 14:10:50,509 log 13592 9808 Internal Server Error: /hw2/prod_add/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Домашка\Django\hwproject\hw2app\views.py", line 59, in product_action
+    path_to_image = '..media/' + res['image.name']
+                                 ~~~^^^^^^^^^^^^^^
+KeyError: 'image.name'
+ERROR 2024-07-07 14:10:50,510 basehttp 13592 9808 "POST /hw2/prod_add/ HTTP/1.1" 500 68149
+ERROR 2024-07-07 14:10:59,283 log 13592 9808 Internal Server Error: /hw2/prod_add/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Домашка\Django\hwproject\hw2app\views.py", line 59, in product_action
+    path_to_image = '..media/' + res['image.name']
+                                 ~~~^^^^^^^^^^^^^^
+KeyError: 'image.name'
+ERROR 2024-07-07 14:10:59,285 basehttp 13592 9808 "POST /hw2/prod_add/ HTTP/1.1" 500 68149
+INFO 2024-07-07 14:11:02,712 basehttp 13592 9808 "GET /hw2/prod_add/ HTTP/1.1" 200 2289
+ERROR 2024-07-07 14:11:28,417 log 13592 9808 Internal Server Error: /hw2/prod_add/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Домашка\Django\hwproject\hw2app\views.py", line 59, in product_action
+    path_to_image = '..media/' + res['image.name']
+                                 ~~~^^^^^^^^^^^^^^
+KeyError: 'image.name'
+ERROR 2024-07-07 14:11:28,418 basehttp 13592 9808 "POST /hw2/prod_add/ HTTP/1.1" 500 68149
+INFO 2024-07-07 14:11:49,877 autoreload 13592 15476 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 14:11:50,264 autoreload 2204 9804 Watching for file changes with StatReloader
+INFO 2024-07-07 14:11:51,555 autoreload 2204 9804 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 14:11:51,938 autoreload 12968 3948 Watching for file changes with StatReloader
+INFO 2024-07-07 14:11:57,089 basehttp 12968 17920 "GET /hw2/prod_add/ HTTP/1.1" 200 2289
+INFO 2024-07-07 14:12:12,960 basehttp 12968 17920 "POST /hw2/prod_add/ HTTP/1.1" 200 2367
+INFO 2024-07-07 21:20:56,049 autoreload 4812 6896 Watching for file changes with StatReloader
+INFO 2024-07-07 21:21:13,363 basehttp 4812 15460 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 21:21:16,165 basehttp 4812 15460 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 21:21:21,217 basehttp 4812 15460 "POST /hw2/find_prod/ HTTP/1.1" 200 1291
+INFO 2024-07-07 21:28:27,987 autoreload 15400 17120 Watching for file changes with StatReloader
+INFO 2024-07-07 21:28:31,423 basehttp 15400 16288 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 21:28:32,872 basehttp 15400 16288 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 21:28:35,300 basehttp 15400 16288 "POST /hw2/find_prod/ HTTP/1.1" 200 1411
+WARNING 2024-07-07 21:28:35,413 log 15400 16288 Not Found: /hw2/find_prod/alt="product"
+WARNING 2024-07-07 21:28:35,414 basehttp 15400 16288 "GET /hw2/find_prod/alt=%22product%22 HTTP/1.1" 404 3410
+INFO 2024-07-07 21:30:30,593 autoreload 15400 17120 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:30:30,980 autoreload 7432 7904 Watching for file changes with StatReloader
+INFO 2024-07-07 21:30:32,802 basehttp 7432 17664 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 21:30:38,521 autoreload 7432 7904 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:30:38,896 autoreload 648 3972 Watching for file changes with StatReloader
+INFO 2024-07-07 21:32:34,264 autoreload 648 3972 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:32:34,647 autoreload 11672 17384 Watching for file changes with StatReloader
+INFO 2024-07-07 21:32:37,832 autoreload 11672 17384 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:32:38,190 autoreload 14644 7472 Watching for file changes with StatReloader
+INFO 2024-07-07 21:32:39,347 autoreload 14644 7472 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:32:39,714 autoreload 11900 18148 Watching for file changes with StatReloader
+INFO 2024-07-07 21:32:42,038 autoreload 11900 18148 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 21:32:42,406 autoreload 6412 11680 Watching for file changes with StatReloader
+INFO 2024-07-07 21:32:56,642 basehttp 6412 7384 "POST /hw2/find_prod/ HTTP/1.1" 200 1468
+WARNING 2024-07-07 21:32:56,653 log 6412 7384 Not Found: /hw2/find_prod/..media/glas.jpg
+WARNING 2024-07-07 21:32:56,653 basehttp 6412 7384 "GET /hw2/find_prod/..media/glas.jpg HTTP/1.1" 404 3393
+INFO 2024-07-07 21:36:08,327 autoreload 7484 316 Watching for file changes with StatReloader
+INFO 2024-07-07 21:36:11,527 basehttp 7484 6236 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 21:36:12,491 basehttp 7484 6236 "GET /hw2/prod_add/ HTTP/1.1" 200 2394
+INFO 2024-07-07 21:36:31,247 basehttp 7484 6236 "POST /hw2/prod_add/ HTTP/1.1" 200 2470
+INFO 2024-07-07 21:36:58,554 basehttp 7484 6236 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 21:37:00,736 basehttp 7484 6236 "POST /hw2/find_prod/ HTTP/1.1" 200 1468
+WARNING 2024-07-07 21:37:00,749 log 7484 6236 Not Found: /hw2/find_prod/..media/glas.jpg
+WARNING 2024-07-07 21:37:00,749 basehttp 7484 6236 "GET /hw2/find_prod/..media/glas.jpg HTTP/1.1" 404 3393
+INFO 2024-07-07 21:39:06,673 autoreload 4796 15352 Watching for file changes with StatReloader
+INFO 2024-07-07 21:39:10,890 basehttp 4796 12368 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 21:39:12,071 basehttp 4796 12368 "GET /hw2/prod_add/ HTTP/1.1" 200 2394
+INFO 2024-07-07 21:39:42,157 basehttp 4796 12368 "POST /hw2/prod_add/ HTTP/1.1" 200 2472
+INFO 2024-07-07 21:39:44,602 basehttp 4796 12368 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 21:39:48,791 basehttp 4796 12368 "POST /hw2/find_prod/ HTTP/1.1" 200 1470
+WARNING 2024-07-07 21:39:48,802 log 4796 12368 Not Found: /hw2/find_prod/...media/glas.jpg
+WARNING 2024-07-07 21:39:48,802 basehttp 4796 12368 "GET /hw2/find_prod/...media/glas.jpg HTTP/1.1" 404 3396
+INFO 2024-07-07 22:14:33,125 autoreload 9492 17132 Watching for file changes with StatReloader
+INFO 2024-07-07 22:14:41,766 views 9492 17780 Index page accessed
+INFO 2024-07-07 22:14:41,767 basehttp 9492 17780 "GET / HTTP/1.1" 200 121
+INFO 2024-07-07 22:14:46,771 basehttp 9492 17780 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 22:14:49,638 basehttp 9492 17780 "GET /hw2/prod_add/ HTTP/1.1" 200 2394
+INFO 2024-07-07 22:15:08,115 basehttp 9492 17780 "POST /hw2/prod_add/ HTTP/1.1" 200 2471
+INFO 2024-07-07 22:15:10,962 basehttp 9492 17780 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 22:15:13,004 basehttp 9492 17780 "POST /hw2/find_prod/ HTTP/1.1" 200 1474
+WARNING 2024-07-07 22:15:13,014 log 9492 17780 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:15:13,015 basehttp 9492 17780 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:17:19,851 autoreload 15016 16272 Watching for file changes with StatReloader
+INFO 2024-07-07 22:17:21,872 views 15016 2888 Index page accessed
+INFO 2024-07-07 22:17:21,873 basehttp 15016 2888 "GET / HTTP/1.1" 200 121
+INFO 2024-07-07 22:17:27,311 basehttp 15016 2888 "GET /hw2/ HTTP/1.1" 200 1349
+INFO 2024-07-07 22:17:28,472 basehttp 15016 2888 "GET /hw2/prod_add/ HTTP/1.1" 200 2394
+INFO 2024-07-07 22:17:43,997 basehttp 15016 2888 "POST /hw2/prod_add/ HTTP/1.1" 200 2469
+INFO 2024-07-07 22:20:11,939 basehttp 15016 2888 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 22:20:15,152 basehttp 15016 2888 "POST /hw2/find_prod/ HTTP/1.1" 200 1478
+WARNING 2024-07-07 22:20:15,165 log 15016 2888 Not Found: /hw2/media/glas.jpg'
+WARNING 2024-07-07 22:20:15,166 basehttp 15016 2888 "GET /hw2/media/glas.jpg' HTTP/1.1" 404 3375
+INFO 2024-07-07 22:22:15,575 autoreload 15016 16272 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:22:15,971 autoreload 6332 1932 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:04,133 autoreload 10252 5652 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:04,811 basehttp 10252 2548 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 22:24:10,027 basehttp 10252 2548 "POST /hw2/find_prod/ HTTP/1.1" 200 1475
+WARNING 2024-07-07 22:24:10,037 log 10252 2548 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:24:10,038 basehttp 10252 2548 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:24:42,227 autoreload 10252 5652 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:24:42,625 autoreload 5932 17232 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:43,940 autoreload 5932 17232 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:24:44,332 autoreload 3864 13064 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:52,612 autoreload 3864 13064 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:24:52,995 autoreload 1944 15132 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:56,332 autoreload 1944 15132 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:24:56,704 autoreload 14060 6780 Watching for file changes with StatReloader
+INFO 2024-07-07 22:24:57,993 autoreload 14060 6780 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:24:58,354 autoreload 2592 7716 Watching for file changes with StatReloader
+INFO 2024-07-07 22:25:00,539 autoreload 2592 7716 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:25:00,906 autoreload 11988 16080 Watching for file changes with StatReloader
+INFO 2024-07-07 22:25:03,091 basehttp 11988 15352 "POST /hw2/find_prod/ HTTP/1.1" 200 1475
+WARNING 2024-07-07 22:25:03,101 log 11988 15352 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:25:03,101 basehttp 11988 15352 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:25:05,628 basehttp 11988 15352 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 22:25:07,888 basehttp 11988 15352 "POST /hw2/find_prod/ HTTP/1.1" 200 1475
+WARNING 2024-07-07 22:25:07,900 log 11988 15352 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:25:07,900 basehttp 11988 15352 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:27:03,565 autoreload 11988 16080 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:27:03,963 autoreload 4412 17948 Watching for file changes with StatReloader
+INFO 2024-07-07 22:27:06,291 autoreload 4412 17948 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:27:06,681 autoreload 9912 17496 Watching for file changes with StatReloader
+INFO 2024-07-07 22:27:31,229 autoreload 8216 18360 Watching for file changes with StatReloader
+INFO 2024-07-07 22:27:33,849 basehttp 8216 12020 "GET /hw2/prod_add/ HTTP/1.1" 200 2394
+INFO 2024-07-07 22:27:45,481 basehttp 8216 12020 "POST /hw2/prod_add/ HTTP/1.1" 200 2469
+INFO 2024-07-07 22:27:47,820 basehttp 8216 12020 "GET /hw2/find_prod/ HTTP/1.1" 200 1693
+INFO 2024-07-07 22:27:50,231 basehttp 8216 12020 "POST /hw2/find_prod/ HTTP/1.1" 200 1478
+WARNING 2024-07-07 22:27:50,245 log 8216 12020 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:27:50,245 basehttp 8216 12020 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:28:06,564 autoreload 8216 18360 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:28:06,994 autoreload 9392 15628 Watching for file changes with StatReloader
+INFO 2024-07-07 22:28:12,373 autoreload 9392 15628 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:28:12,753 autoreload 6648 2628 Watching for file changes with StatReloader
+INFO 2024-07-07 22:28:14,058 autoreload 6648 2628 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:28:14,450 autoreload 17208 12548 Watching for file changes with StatReloader
+INFO 2024-07-07 22:28:55,255 basehttp 17208 3108 "POST /hw2/find_prod/ HTTP/1.1" 200 1478
+WARNING 2024-07-07 22:28:55,266 log 17208 3108 Not Found: /media/glas.jpg
+WARNING 2024-07-07 22:28:55,266 basehttp 17208 3108 "GET /media/glas.jpg HTTP/1.1" 404 2554
+INFO 2024-07-07 22:32:36,684 autoreload 17208 12548 E:\Домашка\Django\hwproject\hw2app\views.py changed, reloading.
+INFO 2024-07-07 22:32:37,086 autoreload 11628 18204 Watching for file changes with StatReloader
